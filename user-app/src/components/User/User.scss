@@ -1,0 +1,37 @@
+.user-card {
+  background-color:#1d3557;
+  margin: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &__header{
+    background-color:#457b9d;
+    padding: 15px;
+  }
+  &__body{
+    padding: 15px;
+    background-color:#dcdcdd;
+  }
+  &__footer{
+    background-color: #46494c;
+    padding: 15px;
+  }
+  &__text {
+    color: #4c5c68;
+    &--bold {
+      font-weight: 600;
+      color: #1985a1;
+    }
+    &--italic{
+      font-style: italic;
+      color: #46494c;
+    }
+    &--link {
+      color:#a8dadc;
+      text-decoration: none;
+    }
+  }
+  &__title{
+    font-size: 25px;
+    color: #dcdcdd;
+    margin: 0;
+  }
+}
